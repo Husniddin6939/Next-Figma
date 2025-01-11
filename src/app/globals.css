@@ -40,3 +40,20 @@ a {
     color-scheme: dark;
   }
 }
+
+.container{
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+button{
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+
+button:active{
+  transform: scale(0.9);
+}
