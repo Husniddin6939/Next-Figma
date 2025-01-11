@@ -12,6 +12,7 @@ export const Header = () => {
       <div className="buttons">
         <button className="home">Home</button>
         <button className="product">Product</button>
+        {/* <button>gio</button> */}
       </div>
       <div className="icon">
        <Image src={headerIcon} alt="icon" width={48} height={48}/>
